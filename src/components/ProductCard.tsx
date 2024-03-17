@@ -16,6 +16,7 @@ export default function ProductCard( {carName, imgSrc, onCompare} : {carName: st
             <button className= "block text-sm h-[10%] rounded-md bg-sky-600 hover:bg-indigo-600 mx-2 px-1 py-1 shadow-sm text-white" 
                 onClick={(e) => {
                     e.stopPropagation();
+                    e.preventDefault();
                     onCompare(carName)
 
             }}
