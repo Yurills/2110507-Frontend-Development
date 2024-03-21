@@ -1,8 +1,6 @@
-import styles from "./reservationmenu.module.css"
-
 export default function ReservationMenu () {
     return (
-        <div className={styles.submenu}>
+        <div className="w-[250px] bg-white rounded-lg border border-solid border-silver p-[10px] m-[5px]">
             Sub-menu Here
         </div>
     );
